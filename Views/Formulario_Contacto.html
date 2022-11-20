@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario_Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Formulario_Contacto.html">Contacto</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contáctanos</h1>
+        <h2>Llena el siguiente formulario de contacto y pronto nos estaremos comunicando contigo</h2>
+        <form action="" method="" id="formulario">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Melisa">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+            <br>
+            <label for="teléfono">Teléfono:</label>
+            <input type="number" name="teléfono" id="teléfono">
+            <br>
+            <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="correo@ejemplo.com">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preferencias de temporadas</legend>
+                <label for="temporada">Verano</label>
+                <input type="radio" name="temporada" id="temporada" value="verano">
+                <label for="temporada">Otoño</label>
+                <input type="radio" name="temporada" id="temporada" value="verano">
+                <label for="temporada">Invierno</label>
+                <input type="radio" name="temporada" id="temporada" value="verano">
+                <label for="temporada">Primavera</label>
+                <input type="radio" name="temporada" id="temporada" value="verano">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Colores Favoritos</legend>
+                <label for="colores">Azul</label>
+                <input type="checkbox" name="colores" id="colores" value="Azul">
+                <label for="colores">Rojo</label>
+                <input type="checkbox" name="colores" id="colores" value="Rojo">
+                <label for="colores">Amarilllo</label>
+                <input type="checkbox" name="colores" id="colores" value="Amarillo">
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Talles</legend>
+                <select name="talles" id="talles">
+                    <option value="S">small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select>
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Compartenos tu look favorito</legend>
+                <input type="file" name="imagen_look" id="imagen_look"> 
+              
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="asunto">Asunto:</label>
+                <input type="text" name="asunto" id="asunto">
+                <br>
+                <label for="contenido">Contenido:</label>
+                <textarea name="contenido" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar campos">
+
+            
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
