@@ -1,0 +1,32 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body {
+    background-color: pink;
+    margin: 0px 0px 20px 0px;
+}
+header .nav_bar {
+    text-align: center;
+    background-color: rgb(221, 55, 157);
+    margin: 0px 0px ;
+    border: solid 5px white;
+    border-radius: 20px;
+}
+.nav_bar ul{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    height: 50px;
+}
+.nav_bar ul li {
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.nav_bar ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
